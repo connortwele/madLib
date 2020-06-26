@@ -1,0 +1,61 @@
+
+
+
+h1{
+
+    text-transform: capitalize;
+    opacity: 1.0;
+    text-align: center;
+    font-family: Fontdiner Swanky;
+    text-shadow: 6px 5px 2px black;
+    color: #93876E;
+    -webkit-text-stroke: 1px #464035
+       
+}
+
+p{
+    opacity: 1.0;
+    text-align: justify;
+    line-height: 25px;
+    font-family:'Pangolin', cursive;
+    padding-bottom: 10px;
+}
+
+form{
+    opacity: 1.0;
+
+}
+
+.font1::-webkit-input-placeholder {
+    font-family: 'Permanent Marker', cursive;
+    background-color: #B8DDD6;
+    font-color: black;
+    line-height: 10px;
+}
+
+body{
+    background-color: #D0876E;
+
+}
+
+.style{
+    width: 500px;
+    height: 630px;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 25px 25px 15px black;
+    border-radius: 15px;
+    opacity: 0.8;
+    margin: auto;
+}
+
+span{
+    width: 82px;
+    height: 12px;
+    background-color: gray;
+    opacity: 0.8;
+    color: black;
+    box-shadow: 3px 3px 3px black;
+    font-family:'Permanent Marker', cursive;
+    border-radius: 3px;
+}

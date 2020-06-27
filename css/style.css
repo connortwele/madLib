@@ -59,3 +59,12 @@ span{
     font-family:'Permanent Marker', cursive;
     border-radius: 3px;
 }
+
+span:hover{
+    transform: scale( 1.5);
+}
+
+.textHere{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}

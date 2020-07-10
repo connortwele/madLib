@@ -14,46 +14,30 @@
    <div class="style">
     <h1>a day at the zoo</h1> 
         <div class="textHere">
-            <form>
-                <input type="text" class="font1" placeholder="1.) adjective">
-            </form>
-            <form>
-                <input type="text" class= "font1" placeholder="2.) noun (animal)">
-            </form>
-            <form>
-                <input type="text" class="font1" placeholder="3.) verb (past tense)">
-            </form>
-            <form>
-                <input type="text" class="font1" placeholder="4.) adverb">
-            </form>
-            <form>
-                <input type="text" class="font1" placeholder="5.) adjective">
-            </form>
-    
-            <form>
-                <input type="text" class="font1" placeholder="6.) noun">
-            </form>
-            <form>
-                <input type="text" class="font1" placeholder="7.) noun">
-            </form>
-            <form>
-                <input type="text" class="font1" placeholder="8.) adjective">
-            </form>
-            <form>
-                <input type="text" class="font1" placeholder="9.) verb">
-            </form>
-            <form>
-                <input type="text" class="font1" placeholder="10.) adverb">
-            </form>
-            <form>
-                <input type="text"  class="font1" placeholder="11.) verb (past tense)">
-            </form>
-            <form>
-                <input type="text" class="font1" placeholder="12.) adjective">
+            <form onSubmit="return false" action="">
+                <input type="text" id="textOne" class="font1" placeholder="1.) adjective">
+                <input type="text" id="textTwo" class= "font1" placeholder="2.) noun (animal)">
+                <input type="text" id="textThree" class="font1" placeholder="3.) verb (past tense)">
+                <input type="text" id="textFour" class="font1" placeholder="4.) adverb">
+                <input type="text" id="textFive" class="font1" placeholder="5.) adjective">
+                <input type="text" id="textSix" class="font1" placeholder="6.) noun (living space)">
+                <input type="text" id="textSeven" class="font1" placeholder="7.) adjective (color)">
+                <input type="text" id="textEight" class="font1"  placeholder="8.) adjective">
+                <input type="text" id="textNine" class="font1" placeholder="9.) verb">
+                <input type="text" id="textTen" class="font1" placeholder="10.) adverb">
+                <input type="text" id="textEleven" class="font1" placeholder="11.) verb (past tense)">
+                <input type="text" id="textTwelve" class="font1" id="textTwelve" placeholder="12.) adjective">
+                <button type="button" onclick="createParagraph()">Submit</button>
             </form> 
-        </div> 
-   <br>
-   <p>Today I went to the zoo. I saw a(n) <span>(adjective)</span> <span>(noun)</span> jumping up and down in its tree. He <span>(verb, past tense)</span> <span>(adverb)</span> through the large tunnel that led to its <span>(adjective)</span> <span>(noun)</span>. I got some peanuts and passed them through the cage to a gigantic gray <span>(noun)</span> towering above my head. Feeding that animal made me hungry. I went to get a <span>(adjective)</span> scoop of ice cream. It filled my stomach. Afterwards I had to <span>(verb)</span> <span>(adverb)</span> to catch our bus. When I got home I <span>(verb, past tense)</span> my mom for a <span>(adjective)</span> day at the zoo.</p>
-    </div>
+        
+        </div>
+        <div id="answer"></div> 
+
+    
+
+
+
+
+<script src="app.js"></script>    
 </body>
 </html>

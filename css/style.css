@@ -67,4 +67,5 @@ span:hover{
 .textHere{
     display: grid;
     grid-template-columns: auto auto auto;
+    grid-row-gap: 5px;
 }
